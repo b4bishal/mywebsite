@@ -1,0 +1,47 @@
+body {
+    background-image: url(https://image.shutterstock.com/image-photo/abstract-white-grey-background-subtle-260nw-1956742048.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right {
+    position: absolute;
+    top: 12px;
+    left: 27px;
+}
+
+.mid {
+   /* position: absolute;*/
+   
+    display: block;
+    margin: 12px auto;
+    width: 11%;
+}
+
+.left {
+    position: absolute;
+    top: 12px;
+    right: 27px;
+}
+.input{
+ 
+    position: absolute;
+    top: 290px;
+    left: 27px;
+}
+.sub :hover{
+    color: black;
+    background-color: brown;
+    margin-top: 7px;
+    
+}
+.end{
+    position: absolute;
+    top:450px ;
+    left: 27px;
+}
+.logo{
+    position: absolute;
+    left: 23px;
+    top: 43px;
+}

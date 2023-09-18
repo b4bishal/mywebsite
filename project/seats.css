@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}  
+nav{
+    background-color: rgb(7, 5, 45);
+    height: 12vh;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+}
+nav .nav-items{
+    height: 100%;
+    width: 96%;
+    margin: auto;
+    display: flex;
+}
+nav .nav-items .logo{
+    height: 100%;
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .nav-items .nav-links{
+    height: 100%;
+    width: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+nav .nav-items .logo img{
+    height: 70%;
+}
+nav .nav-items .nav-links li{
+    list-style: none;
+    display: inline;
+    padding-left: 35px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+nav .nav-items .nav-links a{
+    text-decoration: none;
+    color: white;
+}
+.login {
+    background-color: rgb(123, 10, 10);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 35px;
+    margin-left: 35px;
+    border-radius: 20px;
+}
+.offers{
+    animation: blink 1s infinite;
+
+}
+@keyframes blink{
+    0%{
+        color: white;
+    }
+    25%{
+        color: red;
+    }
+    50%{
+        color: deeppink;
+    }
+    75%{
+        color: yellow;
+    }
+    100%{
+        color: orange;
+    }
+}
+.nav-space{
+    height: 12vh;
+}
+/*Nav bar css ends here*/   
+.rectangle{
+    height: 65vh;
+    width: 100%;  
+}
+.rectangle .content{
+    height: 100%;
+    width: 96%;
+    margin: auto;
+    background-color: rgba(217, 217, 217, 1);      
+    display: flex;
+}
+.rectangle .content .photo{
+    height: 100%;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.rectangle .content .dis{
+    height: 100%;
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.rectangle .content .photo img{
+    height: 80%;
+}
+.rectangle .content .dis p{
+    color: rgba(106, 8, 8, 1);
+    font-size: 21px;
+}  
+/*Screen CSS Starts*/
+
+.screen{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.screen .screen-content{
+    height: 100%;
+    width: 96%;
+    background-color: rgba(16, 16, 19, 1);
+
+}
+.screen .screen-content .screen-header{
+    height: 50px;
+    width: 98%;
+    margin: auto;
+    display: flex;
+
+}
+.screen .screen-content .screen-header .w-half{
+    height: 100%;
+    width: 50%;
+}
+.screen .screen-content .screen-header .left{
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+.screen .screen-content .screen-header .right{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.screen .screen-content .screen-header p{
+    background-color: rgba(217, 217, 217, 1);   
+    padding: 8px;
+    border-radius: 8px;
+}
+.screen .screen-content .screenside{
+    height: 50px;
+    width: 96%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.screen .screen-content .screenside .screensidehere{
+    border-radius: 10px;
+    height: 30px;
+    width: 50%;
+    background-color: rgba(217, 217, 217, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.screen .screen-content .seats{
+    height: 550px;
+    width: 98%;
+    background-color: rgba(16, 16, 19, 1);
+
+    margin: auto;
+    display: flex;
+}
+.screen .screen-content .rows{
+    display: flex;
+    height: 100%;
+    width: 25%;
+    background-color: aqua;
+}
+.walkingrow{
+    width: 5%;
+
+}
+.seatblock{
+    border-radius: 8px;
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(217, 217, 217, 1);
+    display: grid;
+    place-content: center;
+}
+.seatcontent{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color:rgba(16, 16, 19, 1);
+
+    width: 100%;
+    
+}    
+.seatblock-A0{ 
+    
+    background-color: aquamarine;
+
+
+}
+
+
+.seatblock.seat-A0 { background-color: rgb(210, 206, 8);} 
+.seatblock.seat-A1{
+    background-color: red;
+} 
+.seatblock.seat-A2{
+    background-color: rgb(6, 247, 6);
+} 
+.information{
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+
+}
+.information .ihalf{
+    color: white;
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+}
+.information .leftside .block{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+}
+.information .leftside{
+    padding-left: 20px;
+}
+.information .rightside{
+    justify-content: right;
+    padding-right: 20px;
+}
+.information .rightside .proceed{
+    height: 30px;
+    width: 100px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+}
+
+/*Footer css*/
+
+.footer{
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(6, 6, 43);
+}
+.footer .footer-header{
+    height: 50px;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.footer-header h2{
+    font-family: inter;
+    opacity: 0.7;
+    font-size: 15px;
+}
+.footer .theater-icons{
+    height: 80px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.footer .theater-icons .icons{
+    height: 100%;
+}
+.footer .theater-icons img{
+    height: 70%;
+    opacity: 0.5;
+}
+.footer .more{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    color: white;
+}
+.footer .payments{
+    height: 15vh;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.payment{
+    height: 30%;
+    width: fit-content;
+    display: grid;
+    place-content: center;
+    color: white;
+    
+}
+.payment-icons{
+    height: 50%;
+    width: fit-content;
+}
+.payment-icons img{
+    height: 70%;
+    
+}
+.copyright{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 30px;
+    width: 100%;
+
+
+}
+
+
+

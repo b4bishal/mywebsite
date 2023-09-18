@@ -1,0 +1,583 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}     
+.rectangle{
+    height: 65vh;
+    width: 100%;
+    
+   
+    
+    
+}
+.rectangle .content{
+    height: 100%;
+    width: 96%;
+    margin: auto;
+    background-color: rgba(217, 217, 217, 1);   
+    display: flex;
+}
+.rectangle .content .photo{
+    height: 100%;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.rectangle .content .dis{
+    height: 100%;
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.rectangle .content .photo img{
+    height: 80%;
+}
+.rectangle .content .dis p{
+    color: rgba(106, 8, 8, 1);
+    font-size: 21px;
+} 
+
+.smallrect{ 
+
+    
+        margin-top: 40px;
+        margin-bottom: 80px;
+        
+        margin-left: 900px;
+      
+    
+     height: 50px;
+     width: 5%;
+     
+  
+    background-color:red;  
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+        }  .box {
+            height: 96%;
+            width: 96%;
+            margin:auto;
+          
+            margin-bottom: -2%;
+
+            
+            background-color:white;
+            display: flex;
+        } 
+        .rect{ 
+
+    
+            margin-top: 40px;
+            margin-bottom: 30px;
+            
+            margin-left: 100px;
+          
+        
+         height: 50px;
+         width: 5%;
+         
+      
+        background-color:rgba(217, 217, 217, 1);  
+        display: flex; 
+        justify-content: center;
+        flex-direction: column;
+        }
+        .rect1{ 
+
+    
+            margin-top: 40px;
+            margin-bottom: 30px;
+            
+            margin-left: 100px;
+          
+        
+         height: 50px;
+         width: 5%;
+         
+      
+        background-color:rgba(217, 217, 217, 1);  
+        display: flex; 
+        justify-content: center;
+        flex-direction: column;
+        } 
+        .rect2{ 
+
+    
+            margin-top: 40px;
+            margin-bottom: 30px;
+            
+            margin-left: 100px;
+          
+        
+         height: 50px;
+         width: 5%;
+         
+      
+        background-color: rgba(217, 217, 217, 1);  
+  
+        display: flex; 
+        justify-content: center;
+        flex-direction: column;
+        }   
+        .box2 {
+            height: 8vh;
+            width: 100%;
+            margin: auto;
+            
+            background-color:  rgba(7, 1, 31, 1);
+
+            
+            
+            display: flex; 
+        } 
+        .details{ 
+           
+            padding:20px;
+            text-align: center;
+            width: 541px;
+            height: 111px;
+            top: 941px;
+            left: 367px;
+           color:  rgba(255, 253, 253, 1);
+          
+                    
+                } 
+                .smallbox { 
+                   
+                    height: 6vh;
+                    width: 3%;
+                    text-align: right;
+                    
+                    background-color: rgba(217, 217, 217, 1); 
+                    display:flex;
+                  margin-top: auto;
+                  margin-bottom: auto;
+                      } 
+                      .detail1{ 
+           
+                        padding:20px;
+                        
+                        
+                        width: 212px;
+                         height: 39px;
+                            top: 952px;
+                        left: 970px;
+
+
+                       color:  rgba(255, 253, 253, 1);}
+                       .smallbox1 { 
+                   
+                        height: 6vh;
+                        width: 3%;
+                        text-align: right;
+                        
+                        background-color: yellow; 
+                        display:flex;
+                      margin-top: auto;
+                      margin-bottom: auto;
+                          } 
+                          .detail2{ 
+               
+                            padding:20px;
+                            
+                            
+                            width: 212px;
+                             height: 39px;
+                                top: 952px;
+                            left: 970px;
+    
+    
+                           color:  rgba(255, 253, 253, 1);}
+                           .smallbox2 { 
+                   
+                            height: 6vh;
+                            width: 3%;
+                            text-align: right;
+                            
+                            background-color: red; 
+                            display:flex;
+                          margin-top: auto;
+                          margin-bottom: auto;
+                              } 
+                              .detail3{ 
+                   
+                                padding:20px;
+                                
+                                
+                                width: 212px;
+                                 height: 39px;
+                                    top: 952px;
+                                left: 970px;
+        
+        
+                               color:  rgba(255, 253, 253, 1);}  
+
+
+
+
+
+
+                               .smallrects{ 
+                                
+                             
+
+
+    
+                                margin-top: 40px;
+                                margin-bottom: 80px;
+                                
+                                border-radius: 80px;
+                              
+                            
+                             height: 70px;
+                                width: 200px;
+                                cursor: pointer;
+                             
+                          
+                            background-color:rgba(217, 217, 217, 1); 
+                            display: flex; 
+                            justify-content: center;
+                            flex-direction: column;
+                                }  .box1 {
+                                    height: 96%;
+                                    width: 96%;
+                                    margin:auto;
+                                  
+                                    margin-bottom: -2%;
+                                    
+                                    background-color:white;
+                                    display: flex;
+                                } 
+                                
+                                .dates{ 
+                                    font-size: large;
+           
+                                    padding:50px;
+                                   
+                                   
+                                   color:  rgba(255, 253, 253, 1); }
+                               
+
+
+                                   .rects{ 
+                                
+                             
+
+
+    
+                                    margin-top: 40px;
+                                    margin-bottom: 80px;
+                                    
+                                    border-radius: 80px;
+                                    margin-left: 150px;
+                                    cursor: pointer;
+                                  
+                                
+                                 height: 70px;
+                                    width: 200px;
+                                    
+                                 
+                              
+                                background-color: rgba(214, 218, 0, 1);
+                                 
+                                display: flex; 
+                                justify-content: center;
+                                flex-direction: column;
+                                    }  .box1 {
+                                        height: 96%;
+                                        width: 96%;
+                                        margin:auto;
+                                      
+                                        margin-bottom: -2%;
+                                        
+                                        background-color:white;
+                                        display: flex;
+                                    } 
+                                    
+                                    .dates1{ 
+                                        font-size: large;
+               
+                                        padding:50px;
+                                       
+                                       
+                                       color:  rgba(255, 253, 253, 1); } 
+                                       .rects2{ 
+                                
+                             
+
+
+    
+                                        margin-top: 40px;
+                                        margin-bottom: 80px;
+                                        
+                                        border-radius: 80px;
+                                        margin-left: 150px;
+                                      
+                                    
+                                     height: 70px;
+                                        width: 200px;
+                                        cursor: pointer;
+                                     
+                                  
+                                    background-color: rgba(217, 217, 217, 1);
+                                    ;  
+                                    display: flex; 
+                                    justify-content: center;
+                                    flex-direction: column;
+                                        }  .box1 {
+                                            height: 96%;
+                                            width: 96%;
+                                            margin:auto;
+                                          
+                                            margin-bottom: -2%;
+                                            
+                                            background-color:white;
+                                            display: flex;
+                                        } 
+                                        
+                                        .dates3{ 
+                                            font-size: large;
+                   
+                                            padding:50px;
+                                           
+                                           
+                                           color:  rgba(255, 253, 253, 1); } 
+
+
+
+
+
+
+
+                                           
+                                           .boxs2 {
+                                            height: 8vh;
+                                            width: 100%;
+                                            margin: auto;
+                                            
+                                            background-color: rgba(7, 1, 31, 1);
+
+                                            
+                                            
+                                            display: flex; 
+                                        } 
+                                        .details0{ 
+                                           
+                                            padding:20px;
+                                            text-align: center;
+                                            width: 541px;
+                                            height: 111px;
+                                            top: 941px;
+                                            left: 367px;
+                                           color:  rgba(255, 253, 253, 1);
+                                          
+                                                    
+                                                } 
+                                                .smallsbox { 
+                                                   
+                                                    height: 6vh;
+                                                    width: 3%;
+                                                    text-align: right;
+                                                    
+                                                    background-color: rgba(217, 217, 217, 1); 
+                                                    display:flex;
+                                                  margin-top: auto;
+                                                  margin-bottom: auto;
+                                                      } 
+                                                      .details1{ 
+                                           
+                                                        padding:20px;
+                                                        
+                                                        
+                                                        width: 212px;
+                                                         height: 39px;
+                                                            top: 952px;
+                                                        left: 970px;
+                                
+                                
+                                                       color:  rgba(255, 253, 253, 1);}
+                                                       .smallsbox1 { 
+                                                   
+                                                        height: 6vh;
+                                                        width: 3%;
+                                                        text-align: right;
+                                                        
+                                                        background-color: yellow; 
+                                                        display:flex;
+                                                      margin-top: auto;
+                                                      margin-bottom: auto;
+                                                          } 
+                                                          .details2{ 
+                                               
+                                                            padding:20px;
+                                                            
+                                                            
+                                                            width: 212px;
+                                                             height: 39px;
+                                                                top: 952px;
+                                                            left: 970px;
+                                    
+                                    
+                                                           color:  rgba(255, 253, 253, 1);}
+                                                           .smallsbox2 { 
+                                                   
+                                                            height: 6vh;
+                                                            width: 3%;
+                                                            text-align: right;
+                                                            
+                                                            background-color: red; 
+                                                            display:flex;
+                                                          margin-top: auto;
+                                                          margin-bottom: auto;
+                                                              } 
+                                                              .details3{ 
+                                                   
+                                                                padding:20px;
+                                                                
+                                                                
+                                                                width: 212px;
+                                                                 height: 39px;
+                                                                    top: 952px;
+                                                                left: 970px;
+                                        
+                                        
+                                                               color:  rgba(255, 253, 253, 1);}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                            
+
+                               .nextsmallrects{ 
+                                
+                             
+
+
+    
+                                margin-top: 40px;
+                                margin-bottom: 80px;
+                                
+                                border-radius: 80px;
+                              
+                            
+                             height: 70px;
+                                width: 200px;
+                                cursor: pointer;
+                             
+                          
+                            background-color:rgba(214, 218, 0, 1);
+                            display: flex; 
+                            justify-content: center;
+                            flex-direction: column;
+                                }  .nextbox1 {
+                                    height: 96%;
+                                    width: 96%;
+                                    margin:auto;
+                                  
+                                    margin-bottom: -2%;
+                                    
+                                    background-color:white;
+                                    display: flex;
+                                } 
+                                
+                                .nextdates{ 
+                                    font-size: large;
+           
+                                    padding:50px;
+                                   
+                                   
+                                   color:  rgba(255, 253, 253, 1); }
+                               
+
+
+                                   .nextrects{  
+                                     cursor: pointer;
+                                
+                             
+
+
+    
+                                    margin-top: 40px;
+                                    margin-bottom: 80px;
+                                    
+                                    border-radius: 80px;
+                                    margin-left: 150px;
+                                  
+                                
+                                 height: 70px;
+                                    width: 200px;
+                                    
+                                 
+                              
+                                background-color: rgba(217, 217, 217, 1); 
+                                 
+                                display: flex; 
+                                justify-content: center;
+                                flex-direction: column;
+                                    }  .nextbox1 {
+                                        height: 96%;
+                                        width: 96%;
+                                        margin:auto;
+                                      
+                                        margin-bottom: -2%;
+                                        
+                                        background-color:white;
+                                        display: flex;
+                                    } 
+                                    
+                                    .nextdates1{ 
+                                        font-size: large;
+               
+                                        padding:50px;
+                                       
+                                       
+                                       color:  rgba(255, 253, 253, 1); } 
+                                      
+                                        
+                                     
+                                  
+                                 
+
+                                                                  
+
+
+
+
+
+
+
+                                                               
+                               
+
+
+
+
+
+
+
+
+
+
+
+                            
+                                  
+                          
+    
+           
+                      
+
+       

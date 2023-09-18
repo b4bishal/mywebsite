@@ -1,0 +1,301 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+nav{
+    background-color: rgb(7, 5, 45);
+    height: 12vh;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+}
+nav .nav-items{
+    height: 100%;
+    width: 96%;
+    margin: auto;
+    display: flex;
+}
+nav .nav-items .logo{
+    height: 100%;
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .nav-items .nav-links{
+    height: 100%;
+    width: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+nav .nav-items .logo img{
+    height: 70%;
+}
+nav .nav-items .nav-links li{
+    list-style: none;
+    display: inline;
+    padding-left: 35px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+nav .nav-items .nav-links a{
+    text-decoration: none;
+    color: white;
+}
+.login {
+    background-color: rgb(123, 10, 10);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 35px;
+    margin-left: 35px;
+    border-radius: 20px;
+}
+.offers{
+    animation: blink 1s infinite;
+
+}
+@keyframes blink{
+    0%{
+        color: white;
+    }
+    25%{
+        color: red;
+    }
+    50%{
+        color: deeppink;
+    }
+    75%{
+        color: yellow;
+    }
+    100%{
+        color: orange;
+    }
+}
+.nav-space{
+    height: 12vh;
+}
+/*Nav bar css ends here*/
+
+.banners{
+    height: 550px;
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+    animation: changebanner 15s infinite;
+    background-position: center;
+    background-size: 100%;
+}
+@keyframes changebanner{
+    0%{
+        background-image: url(../images/movie-banners/oppenheimer.jpg);
+    }
+    50%{
+        background-image: url(../images/movie-banners/barbie.jpg);
+    }
+    100%{
+        background-image: url(../images/movie-banners/oppenheimer.jpg);
+    }
+}
+.banners h1{
+    position: absolute;
+    left: 2%;
+    bottom: 5%;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-shadow: 0 3px black;
+}
+/* /*banner ends */
+.locations{
+    height: 120px;
+    width: 100%;
+
+}
+.locations .flex-box{
+    height: 100%;
+    width: 96%;
+    
+    margin: auto;
+    display: flex;
+}
+.locations .flex-box .search{
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+}
+.locations .flex-box .choose{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100%;
+    width: 50%;
+
+}
+.locations .flex-box .search input{
+    height: 50px;
+    width: 413px;
+    border-radius: 100px;
+    background-color: rgba(217, 217, 217, 1);
+}
+.locations .flex-box .choose h2{
+    background-color: white;
+    padding: 10px;
+    padding-left: 30px;
+    color: rgba(0, 0, 0, 0.658);
+    padding-right: 50px;
+    border-radius: 50px;
+    background-color: rgba(217, 217, 217, 1);
+}
+/*Location Ends*/
+
+
+.now-showing{
+    height: 480px;
+    width: 96%;
+    background-color: rgba(217, 217, 217, 1);
+    margin: auto; 
+    display: flex;
+}
+.now-showing .posters{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3%;
+}
+.now-showing .posters img{
+    height: 90%;
+    
+}
+
+.now-showing .posters .space{
+    width: 10%;
+}
+.now-showing .posters .movie{
+    height: 90%;
+    width: 24%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 13px;
+    color: #040933;
+    font-family: Inter;
+    font-weight: bold;
+}
+.now-showing .hero{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.now-showing .hero img{
+    height: 40%;
+    mix-blend-mode: multiply;
+}
+/*Now-showing & upcomming ends*/
+
+.advertisement{
+    height: 50vh;
+    width: 96%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.advertisement .adhalf{
+    height: 95%;
+    width: 48%;
+    background-color: aliceblue;
+}
+.advertisement .adhalf img{
+    height: 100%;
+    width: 100%;
+}
+.space-ad{
+    width: 2%;
+}
+/*Footer css*/
+
+.footer{
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(6, 6, 43);
+}
+.footer .footer-header{
+    height: 50px;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.footer-header h2{
+    font-family: inter;
+    opacity: 0.7;
+    font-size: 15px;
+}
+.footer .theater-icons{
+    height: 80px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.footer .theater-icons .icons{
+    height: 100%;
+}
+.footer .theater-icons img{
+    height: 80%;
+    opacity: 0.5;
+}
+.footer .more{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    color: white;
+}
+.footer .payments{
+    height: 15vh;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.payment{
+    height: 30%;
+    width: fit-content;
+    display: grid;
+    place-content: center;
+    color: white;
+    
+}
+.payment-icons{
+    height: 50%;
+    width: fit-content;
+}
+.payment-icons img{
+    height: 70%;
+    
+}
+.copyright{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 30px;
+    width: 100%;
+
+
+}
